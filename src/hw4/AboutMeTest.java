@@ -5,10 +5,9 @@ public class AboutMeTest {
 	public static void main(String[] args) {
 
 		AboutMe aboutMe = new AboutMe(); // Constructor initialized
-		// test
-		// test3
 		
-		aboutMe.name = "shaim";
+		
+		aboutMe.name = "shaim";// variable initialized
 		aboutMe.friends = 20;
 		aboutMe.bankBlance = 5766648899995l;
 		aboutMe.mobile = 4;
@@ -22,7 +21,7 @@ public class AboutMeTest {
 		System.out.println("\n--------------------------------------------------------\n");
 		AboutMe aboutMe2 = new AboutMe();
 
-		aboutMe2.name = "Alex";
+		aboutMe2.name = "Alex";// variable initialized
 		aboutMe2.friends = 8;
 		aboutMe2.bankBlance = 56654565465544l;
 		aboutMe2.mobile = 2;
@@ -31,7 +30,7 @@ public class AboutMeTest {
 		aboutMe2.sex = 'M';
 		aboutMe2.siblings = 4;
 		aboutMe2.rich = true;
-		aboutMe2.aboutme(); 
+		aboutMe2.aboutme(); // method initialized 
 
 	}
 

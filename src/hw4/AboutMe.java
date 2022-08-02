@@ -2,7 +2,7 @@ package hw4;
 
 public class AboutMe {
 
-	String name;
+	String name; // variable declared
 	short friends;
 	long bankBlance;
 	byte mobile;
@@ -11,13 +11,13 @@ public class AboutMe {
 	char sex;
 	int siblings;
 	boolean rich;
-	// variable declared
-
+	
+ //Constructor declared
 	public AboutMe() {
 		System.out.println("This is all about us");
 
 	}
-
+ //method implemented
 	public void aboutme() {
 		System.out.println("My Name Is :" + name + "\nI Have Friends :" + friends + "\nMy Bank Balance Is : "
 				+ bankBlance + "\nI Have Mobile :" + mobile + "\nMy Height Is :" + height + "\nMy SSC Results Was :"
